@@ -118,3 +118,8 @@ harness = false
 [[example]]
 name = "random_fbig"
 required-features = ["rand"]
+
+[[bench]]
+name = "math_cache"
+required-features = ["rand"]
+harness = false
